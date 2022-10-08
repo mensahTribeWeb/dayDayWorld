@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+      <ul>
+        <li ><a href="index.html">Home</a></li>
+        <li><a href="">Register</a></li>
+        <li><a href="">Photos</a></li>
+        <li ><a href="">Brand</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Alijay World</h1>
+      <h2>Day-Day</h2>
+    <p>Wait Watch Listen Keep Moving</p>
+
+    </header>
+
+  <form method="Get">
+  
+    <label for="firstName" id="firstNameLabel" > First Name: </label><br>
+    <input type="text" name ="firstName" id="firstName" required><br>
+
+    <label for="lastName" id="lastNameLabel"> Last Name: </label><br>
+    <input type="text" name ="lastName" id="lastName" required><br>
+
+    <label for="email">Email: </label><br>
+    <input type="email" name="email" id="email" required><br>
+
+    <div>
+      <label for="gender">Gender:</label><br>
+      <input type="radio" title="gender" name="gender" id="male" value="male">
+      <label for="gender">Male</label>
+  
+      <input type="radio" title="gender" name="gender" id="female" value="female">
+      <label for="gender">Female</label>
+  
+      <input type="radio" title="gender" name="gender" id="other">
+      <label for="gender">Other</label>
+    </div>
+
+    <label for="text" title="sendLove" name="sendLove">Send Love: </label><br>
+
+    <textarea type="text" id="sendLove" name="sendLove" required cols="20" rows="10
+    " placeholder="Love You Little Brother Always...."></textarea>
+<br>
+    <button type="submit" id="submit" name="submit">Submit</button>
+    <button type="reset" id="reset" name="reset">Reset</button>
+  </form>
+</body>
+</html>

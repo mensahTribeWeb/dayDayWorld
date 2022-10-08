@@ -1,0 +1,74 @@
+*{
+  color: rgb(120, 135, 171);
+  list-style: none;
+  text-decoration: none;
+}
+/* Header */
+
+/* Body */
+body{
+  background-color: rgb(6, 21, 57);
+  /* background: url(img\promFlyOne.png);
+  background-size: cover; */
+}
+
+/* Navigation */
+body > nav > ul{
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+
+nav > ul > li{
+  margin-left: 5px;
+}
+
+a{
+  cursor: pointer;
+}
+
+h1, h2, header p{
+  text-align: center;
+}
+
+/*iframe */
+iframe{
+display: flex;
+width: 100vw;
+flex-wrap: nowrap;
+justify-content: center;
+
+}
+
+/* form */
+form {
+  border-radius: 5px;
+  text-align: center;
+  border: 1px rgba(120, 135, 171, 0.935) solid;
+  height: 55vh;
+  width: 25vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: rgb(22, 41, 85);
+   
+}
+
+form > label, 
+div > label {
+  display: inline-block;
+  text-align: left;
+  margin:10px 0;
+  
+}
+
+main img {
+  width: 300px;
+  height: 400px;;
+} 
+
+.photoContainer {
+  display:flex;
+  flex-wrap:wrap; 
+  justify-content: center;
+}
